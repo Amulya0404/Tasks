@@ -1,0 +1,64 @@
+Q: What is overfitting?
+A: Overfitting happens when a model memorises the training data, including its noise, and therefore performs poorly on new data. Cross-validation, regularisation and collecting more data are common ways to reduce overfitting.
+   Source: machine_learning_basics.txt (chunk 3) | similarity=0.23 coverage=1.0
+   Supporting passage: "Overfitting happens when a model memorises the training data, including its noise, and therefore performs poorly on new data. Underfitting happens when a model is too simple to capture the real pattern. Cross-validation, regularisation and collecting more data are common ways to reduce overfitting."
+
+Q: What does precision mean?
+A: Precision is the fraction of predicted positives that are truly positive. The F1-score is the harmonic mean of precision and recall.
+   Source: machine_learning_basics.txt (chunk 5) | similarity=0.199 coverage=1.0
+   Supporting passage: "Precision is the fraction of predicted positives that are truly positive. Recall is the fraction of truly positive cases that the model finds. The F1-score is the harmonic mean of precision and recall. Accuracy can be misleading when one class is much more frequent than the other."
+
+Q: How does BM25 differ from TF-IDF?
+A: TF-IDF stands for term frequency and inverse document frequency. This makes TF-IDF useful for ranking documents against a search query.
+   Source: nlp_and_retrieval.txt (chunk 9) | similarity=0.281 coverage=0.67
+   Supporting passage: "TF-IDF stands for term frequency and inverse document frequency. A word receives a high weight when it appears often in a document but rarely across the whole collection. This makes TF-IDF useful for ranking documents against a search query."
+
+Q: Why should the test set not be used during tuning?
+A: A dataset is usually divided into a training set and a test set. The test set must never be used while training or tuning, because doing so causes data leakage and gives an unrealistically optimistic estimate of performance.
+   Source: machine_learning_basics.txt (chunk 4) | similarity=0.514 coverage=1.0
+   Supporting passage: "A dataset is usually divided into a training set and a test set. The test set must never be used while training or tuning, because doing so causes data leakage and gives an unrealistically optimistic estimate of performance."
+
+Q: What is retrieval-augmented generation?
+A: Retrieval-augmented generation combines a retriever with a text generator.
+   Source: nlp_and_retrieval.txt (chunk 13) | similarity=0.305 coverage=1.0
+   Supporting passage: "Retrieval-augmented generation combines a retriever with a text generator. The retriever finds relevant passages and the generator writes an answer that is grounded in them. Grounding reduces hallucination, which is the tendency of a language model to state facts that are not supported by any source."
+
+Q: Why does chunking matter?
+A: Chunking divides a long document into smaller passages before indexing. Chunks that are too large dilute the relevant information, while chunks that are too small lose context.
+   Source: nlp_and_retrieval.txt (chunk 14) | similarity=0.208 coverage=1.0
+   Supporting passage: "Chunking divides a long document into smaller passages before indexing. Chunks that are too large dilute the relevant information, while chunks that are too small lose context. Overlapping chunks help avoid cutting an answer in half."
+
+Q: What is a model card?
+A: Model cards document the intended use, training data, evaluation results and known limitations of a model.
+   Source: responsible_ai.txt (chunk 20) | similarity=0.27 coverage=1.0
+   Supporting passage: "Model cards document the intended use, training data, evaluation results and known limitations of a model. Reporting limitations honestly helps other people decide whether the model is suitable for their situation."
+
+Q: How is bias introduced into a system?
+A: Information not found in provided document.
+   (best similarity=0.15, coverage=0.5 - below grounding threshold)
+
+Q: Who won the 2018 FIFA World Cup?
+A: Information not found in provided document.
+   (best similarity=0.0, coverage=0.0 - below grounding threshold)
+
+Q: What is the capital of France?
+A: Information not found in provided document.
+   (best similarity=0.0, coverage=0.0 - below grounding threshold)
+
+Q: How do I bake sourdough bread?
+A: Information not found in provided document.
+   (best similarity=0.0, coverage=0.0 - below grounding threshold)
+
+Q: What is the price of Bitcoin?
+A: Information not found in provided document.
+   (best similarity=0.149, coverage=0.5 - below grounding threshold)
+
+Q: How many layers does ResNet-50 have?
+A: Information not found in provided document.
+   (best similarity=0.144, coverage=0.0 - below grounding threshold)
+
+Q: Explain how quantum computers factor large numbers.
+A: Information not found in provided document.
+   (best similarity=0.096, coverage=0.2 - below grounding threshold)
+
+SUMMARY: answered 7/8 answerable questions; correctly refused 6/6 unanswerable questions (0 hallucinated answers).

@@ -1,0 +1,8 @@
+[SPAM] p(spam)=0.981 | WINNER!! You have won a £1000 cash prize. Call 09061701461 now to claim
+[SPAM] p(spam)=0.681 | Free entry to win tickets, text WIN to 80082 now
+[SPAM] p(spam)=0.979 | URGENT! Your mobile number has been awarded 2000 bonus caller prize, call now
+[HAM ] p(spam)=0.003 | Hey, are we still meeting for lunch at 1pm tomorrow?
+[HAM ] p(spam)=0.025 | Can you send me the notes from today's class? Thanks!
+[HAM ] p(spam)=0.006 | Ok I'll be home by 7, don't forget to buy milk
+[SPAM] p(spam)=0.742 | Congratulations! You've been selected for a free iPhone, click the link to claim
+[HAM ] p(spam)=0.009 | Happy birthday! Hope you have an amazing day with family

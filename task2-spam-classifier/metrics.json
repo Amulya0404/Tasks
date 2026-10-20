@@ -1,0 +1,41 @@
+{
+  "selected": "MultinomialNB",
+  "MultinomialNB": {
+    "best_params": {
+      "clf__alpha": 1.0
+    },
+    "cv_precision": 1.0,
+    "test_precision": 1.0,
+    "test_recall": 0.771,
+    "test_f1": 0.8707,
+    "confusion_matrix": [
+      [
+        903,
+        0
+      ],
+      [
+        30,
+        101
+      ]
+    ]
+  },
+  "LogisticRegression": {
+    "best_params": {
+      "clf__C": 30
+    },
+    "cv_precision": 0.9536,
+    "test_precision": 0.9291,
+    "test_recall": 0.9008,
+    "test_f1": 0.9147,
+    "confusion_matrix": [
+      [
+        894,
+        9
+      ],
+      [
+        13,
+        118
+      ]
+    ]
+  }
+}

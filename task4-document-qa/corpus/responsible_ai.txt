@@ -1,0 +1,13 @@
+Responsible AI Practices
+
+Responsible AI means designing, building and deploying systems that are fair, transparent, safe and accountable. Teams are encouraged to consider these properties from the start of a project rather than after deployment.
+
+Bias can enter a system through unrepresentative training data, through labels that reflect human prejudice, or through the way a problem is framed. Auditing model performance separately for different groups helps reveal unequal error rates.
+
+Transparency means that users can understand what a system does and why it produced a given output. Techniques such as feature importance and showing the source passages behind an answer make model behaviour easier to inspect.
+
+Privacy requires that personal data is collected only when necessary, stored securely and used only for the stated purpose. Secrets such as passwords and API keys must never be committed to a public repository.
+
+Model cards document the intended use, training data, evaluation results and known limitations of a model. Reporting limitations honestly helps other people decide whether the model is suitable for their situation.
+
+Human oversight is important for high-stakes decisions. A person should be able to review, correct or override an automated decision, and the system should say clearly when it does not know the answer.

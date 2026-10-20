@@ -1,0 +1,17 @@
+Machine Learning Basics
+
+Machine learning is a field of computer science in which algorithms learn patterns from data instead of following hand-written rules. A trained model can then make predictions on new, unseen examples.
+
+Supervised learning uses labelled examples. The model learns a mapping from input features to a known target. Classification predicts a category, such as spam or not spam, while regression predicts a continuous number, such as the price of a house.
+
+Unsupervised learning works with unlabelled data. Clustering groups similar items together, and dimensionality reduction compresses many features into fewer ones while keeping most of the information.
+
+Overfitting happens when a model memorises the training data, including its noise, and therefore performs poorly on new data. Underfitting happens when a model is too simple to capture the real pattern. Cross-validation, regularisation and collecting more data are common ways to reduce overfitting.
+
+A dataset is usually divided into a training set and a test set. The test set must never be used while training or tuning, because doing so causes data leakage and gives an unrealistically optimistic estimate of performance.
+
+Precision is the fraction of predicted positives that are truly positive. Recall is the fraction of truly positive cases that the model finds. The F1-score is the harmonic mean of precision and recall. Accuracy can be misleading when one class is much more frequent than the other.
+
+Feature scaling puts numeric features on a similar range. Standardisation subtracts the mean and divides by the standard deviation. Scaling matters for distance-based methods and for models trained with gradient descent.
+
+Hyperparameters are settings chosen before training, such as the number of trees in a random forest or the regularisation strength of a ridge regression. They are usually tuned with grid search or random search using cross-validation.

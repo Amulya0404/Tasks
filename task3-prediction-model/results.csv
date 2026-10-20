@@ -1,0 +1,5 @@
+model,cv_rmse_log,cv_r2,test_rmse_log,test_r2,test_rmse_usd,test_mae_usd,test_mape_pct
+Baseline (mean),1.0156,-0.0002,1.0095,-0.0,4214.2,2771.5,110.09
+Ridge,0.1365,0.9819,0.1407,0.9806,970.9,437.4,10.87
+Random Forest,0.0874,0.9926,0.0896,0.9921,523.4,261.1,6.05
+Gradient Boosting,0.0848,0.993,0.0887,0.9923,520.6,262.9,6.13

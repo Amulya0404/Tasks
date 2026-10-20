@@ -1,0 +1,17 @@
+Natural Language Processing and Retrieval
+
+Tokenisation splits raw text into smaller units called tokens, usually words or sub-words. Lowercasing and stop-word removal are common preprocessing steps that reduce noise in the text.
+
+TF-IDF stands for term frequency and inverse document frequency. A word receives a high weight when it appears often in a document but rarely across the whole collection. This makes TF-IDF useful for ranking documents against a search query.
+
+BM25 is a ranking function that improves on TF-IDF by saturating the effect of term frequency and by normalising for document length. It is the default scoring method in many search engines.
+
+Embeddings represent words or sentences as dense vectors so that texts with similar meaning lie close together. Sentence embeddings allow semantic search, which can match a query to a passage even when they share no exact words.
+
+Cosine similarity measures the angle between two vectors. A value of 1 means the vectors point in the same direction, and a value near 0 means they are unrelated.
+
+Retrieval-augmented generation combines a retriever with a text generator. The retriever finds relevant passages and the generator writes an answer that is grounded in them. Grounding reduces hallucination, which is the tendency of a language model to state facts that are not supported by any source.
+
+Chunking divides a long document into smaller passages before indexing. Chunks that are too large dilute the relevant information, while chunks that are too small lose context. Overlapping chunks help avoid cutting an answer in half.
+
+Naive Bayes classifiers apply Bayes' theorem with the assumption that features are independent. Despite this simple assumption, Multinomial Naive Bayes works very well for text classification such as spam filtering.

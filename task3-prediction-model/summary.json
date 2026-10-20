@@ -1,0 +1,5 @@
+{
+  "best_model": "Gradient Boosting",
+  "rmse_gain_vs_baseline": 0.8765,
+  "n_rows": 53772
+}
